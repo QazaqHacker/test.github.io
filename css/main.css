@@ -1,0 +1,53 @@
+body{
+	background-color: #03A9F4;
+}
+#menu-bar{
+	position: relative;
+	padding-left:50%;
+	padding-bottom:80px;  
+	
+	background-color: #131A20;
+
+}
+.container{
+	position: absolute;
+	left: 10px;
+	top:15px;
+	font-size: 40px;
+	color:#f2f2f2;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #4caf50;
+  overflow: auto;
+
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; 
+  text-align: center; 
+    transition: .5s ease;
+
+}
+
+.navbar a:hover {
+  background-color: #131A20;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; 
+  }
+}
